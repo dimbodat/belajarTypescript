@@ -42,4 +42,29 @@
  *      Output untuk Input nama = 'Zero' dan peran 'Penyihir'
  *      "Selamat datang di Dunia Proxytia, Zero"
  *      "Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!"
- */ 
+ */
+// Variabel
+const nama = "King Arthur"; // masukan nama jika ingin memulai permainan!
+const peran = "Ksatria"; // peran : **Ksatria**, **Tabib**, dan **Penyihir**
+// Logika program
+if (nama === "") {
+    console.log("Nama harus diisi!");
+}
+else if (peran === "") {
+    console.log(" Halo " + nama + ", Pilih peranmu untuk memulai game! ");
+}
+else {
+    console.log("Selamat datang di Dunia Proxytia, " + nama);
+    if (peran === "Ksatria") {
+        console.log(" Halo " + peran + " " + nama + ", kamu dapat menyerang dengan senjatamu!");
+    }
+    else if (peran === "Tabib") {
+        console.log(" Halo " + peran + " " + nama + ", kamu akan membantu temanmu yang terluka.");
+    }
+    else if (peran === "Penyihir") {
+        console.log(" Halo " + peran + " " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
+    }
+    else {
+        console.log("Peran yang dipilih tidak valid.");
+    }
+}
