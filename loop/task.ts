@@ -66,88 +66,88 @@
 
 /*  kerjakan tugas di bawah ini */
 
-// console.log("================= loop for terbalik =================");
+console.log("================= loop for terbalik =================");
 
-// // const initialNumber: number = 10;
-// // const finalNumber: number = 0;
-
-
-// // for (let i = initialNumber; i >= finalNumber; i--) {
-// //         console.log(i);
-// //     }
-
-//     console.log("================= loop kondisi tertentu: ganjil =================");
-
-//  const initialNumber: number = 1;
-// const finalNumber: number = 10;
-// const increment: number = 1;
-
-// for (let i = initialNumber; i <= finalNumber; i += increment) { // kondisi tertentu: melewati angka genap
-//     if (i % 2 !== 0) {
-//       console.log(i);
-//     }
-//   }
-
-// console.log("================= loop kondisi tertentu: genap =================");
-
-// const initialNumber: number = 2;
-// const finalNumber: number = 10;
-// const increment: number = 1;
-
-// for(let i = initialNumber; i <= finalNumber; i += increment) { // kondisi tertentu: melewati angka ganjil
-//     if (i % 2 === 0) {
-//         console.log(i);
-//     }
-// }
+const initialNumber: number = 10;
+const finalNumber: number = 0;
 
 
-// console.log("================= loop while terbalik =================");
+for (let i = initialNumber; i >= finalNumber; i--) {
+        console.log(i);
+    }
 
-// let initialnumberWhile: number = 10;
-// while(initialnumberWhile > 0) {
-//     console.log(initialnumberWhile);
-//     initialnumberWhile--;
-// } 
+    console.log("================= loop kondisi tertentu: ganjil =================");
 
+ const initialNumberGanjil: number = 1;
+const finalNumberGanjil: number = 10;
+const increment: number = 1;
 
-// console.log("================= loop while kondisi tertentu: angka ganjil =================");
+for (let i = initialNumberGanjil; i <= finalNumberGanjil; i += increment) { // kondisi tertentu: melewati angka genap
+    if (i % 2 !== 0) {
+      console.log(i);
+    }
+  }
 
-// let initialnumberWhileganjil: number = 1;
+console.log("================= loop kondisi tertentu: genap =================");
 
-// while (initialnumberWhileganjil <= 10) {
-//     if (initialnumberWhileganjil % 2 !== 0) {
-//         console.log(initialnumberWhileganjil);
-//     }
-//     initialnumberWhileganjil++;
-// }
+const initialNumberGenap: number = 2;
+const finalNumberGenap: number = 10;
+const incrementGenap: number = 1;
 
-
-// console.log("================= loop while kondisi tertentu: angka genap =================");
-
-// let initialnumberWhilegenap: number = 1;
-
-// while (initialnumberWhilegenap <= 10) {
-//     if (initialnumberWhilegenap % 2 === 0) {  
-//         console.log(initialnumberWhilegenap);
-//     }
-//     initialnumberWhilegenap++;  
-// }
+for(let i = initialNumberGenap; i <= finalNumberGenap; i += incrementGenap) { // kondisi tertentu: melewati angka ganjil
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
 
 
-// console.log("================= loop while asterisk =================");
+console.log("================= loop while terbalik =================");
 
-// let initialNumber: number = 10;
-// let i: number = initialNumber;
+let initialnumberWhile: number = 10;
+while(initialnumberWhile > 0) {
+    console.log(initialnumberWhile);
+    initialnumberWhile--;
+} 
 
-// while (i >= 1) {
-//     let initialNumber: string = '';
-//     let j: number = 1;
 
-//     while (j <= i) {
-//         initialNumber += '*';
-//         j++;
-//     }
+console.log("================= loop while kondisi tertentu: angka ganjil =================");
 
-//     console.log(initialNumber);
-//     i--;
-// }
+let initialnumberWhileganjil: number = 1;
+
+while (initialnumberWhileganjil <= 10) {
+    if (initialnumberWhileganjil % 2 !== 0) {
+        console.log(initialnumberWhileganjil);
+    }
+    initialnumberWhileganjil++;
+}
+
+
+console.log("================= loop while kondisi tertentu: angka genap =================");
+
+let initialnumberWhilegenap: number = 1;
+
+while (initialnumberWhilegenap <= 10) {
+    if (initialnumberWhilegenap % 2 === 0) {  
+        console.log(initialnumberWhilegenap);
+    }
+    initialnumberWhilegenap++;  
+}
+
+
+console.log("================= loop while asterisk =================");
+
+let initialnumber: number = 10;
+let i: number = initialNumber;
+
+while (i >= 1) {
+    let initialnumber: string = '';
+    let j: number = 1;
+
+    while (j <= i) {
+        initialnumber += '*';
+        j++;
+    }
+
+    console.log(initialnumber);
+    i--;
+}
