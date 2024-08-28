@@ -21,11 +21,11 @@
 // }
 
 
-// loop while
+// // loop while
 
-let intialNumberWhile: number = 0;
+// let intialNumberWhile: number = 0;
 
-while (intialNumberWhile < 10) {
-    console.log(intialNumberWhile);
-    intialNumberWhile++;
-}
+// while (intialNumberWhile > 10) {
+//     console.log(intialNumberWhile);
+//     intialNumberWhile++;
+// }

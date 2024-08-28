@@ -15,9 +15,9 @@
 //     }
 //     console.log(star);
 // }
-// loop while
-let intialNumberWhile = 0;
-while (intialNumberWhile < 10) {
-    console.log(intialNumberWhile);
-    intialNumberWhile++;
-}
+// // loop while
+// let intialNumberWhile: number = 0;
+// while (intialNumberWhile > 10) {
+//     console.log(intialNumberWhile);
+//     intialNumberWhile++;
+// }
