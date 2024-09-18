@@ -159,33 +159,33 @@
 // math.random, math.floor, sama math.ceil
 
 
+
 // Fungsi untuk me-roll dadu
 function rollDice(): number {
-  // Menghasilkan angka acak dari 1 hingga 6
-  return Math.floor(Math.random() * 6) + 2; 
-}
-
-// Fungsi untuk menentukan hasil berdasarkan nilai dadu
-function gachaResult(diceRoll: number): string {
-  switch (diceRoll) {
-      case 1:
-          return "Coba lagi!"; // Jika roll 1
-      case 2:
-          return "Anda mendapat kupon 5!"; // Jika roll 2
-      case 3:
-          return "Anda mendapat kupon 10!"; // Jika roll 3
-      case 4:
-          return "Anda mendapat kupon 20!"; // Jika roll 4
-      case 5:
-          return "Selamat! Anda mendapat jackpot kupon 50!"; // Jika roll 5
-      case 6:
-          return "Coba lagi!"; // Jika roll 6
-      default:
-          return "Tidak ada hasil"; 
+    // Menghasilkan angka acak dari 1 hingga 6
+    return Math.floor(Math.random() * 6) + 2; 
   }
-}
-
-const diceRoll = rollDice();
-console.log(` Hasil dadu: `  + diceRoll );
-console.log(gachaResult(diceRoll));
-
+  
+  // Fungsi untuk menentukan hasil berdasarkan nilai dadu
+  function gachaResult(diceRoll: number): string {
+    switch (diceRoll) {
+        case 1:
+            return "Coba lagi!"; // Jika roll 1
+        case 2:
+            return "Anda mendapat kupon 5!"; // Jika roll 2
+        case 3:
+            return "Anda mendapat kupon 10!"; // Jika roll 3
+        case 4:
+            return "Anda mendapat kupon 20!"; // Jika roll 4
+        case 5:
+            return "Selamat! Anda mendapat jackpot kupon 50!"; // Jika roll 5
+        case 6:
+            return "Coba lagi!"; // Jika roll 6
+        default:
+            return "Tidak ada hasil"; 
+    }
+  }
+  
+  const diceRoll = rollDice();
+  console.log(` Hasil dadu: `  + diceRoll );
+  console.log(gachaResult(diceRoll));
